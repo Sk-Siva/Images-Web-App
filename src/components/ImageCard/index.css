@@ -1,0 +1,32 @@
+/* src/components/ImageCard/ImageCard.css */
+
+.image-card {
+  width: 200px; /* Fixed width */
+  height: 200px; /* Fixed height */
+  position: relative;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container */
+}
+
+.image-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  z-index: 1;
+  display: none;
+}
+
+.image-card:hover .image-details {
+  display: block; /* Show the details on hover */
+}

@@ -1,0 +1,8 @@
+/* src/components/ImageGrid/ImageGrid.css */
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center; /* Center the images */
+}

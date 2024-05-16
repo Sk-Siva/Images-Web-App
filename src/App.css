@@ -1,0 +1,13 @@
+.bg-con {
+  background-color: #424a4d;
+  color: #ffffff;
+  text-align: center;
+  min-height: 100vh;
+  padding: 10px;
+  margin: 0px;
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+}
